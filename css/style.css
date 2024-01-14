@@ -1,0 +1,73 @@
+/* General Style */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Container */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header */
+h1 {
+  font-size: 2.5em;
+  color: #333;
+}
+
+/* Button */
+button {
+  display: block;
+  width: 200px;
+  padding: 10px;
+  margin: 20px auto;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #555;
+}
+
+/* Recipe Name */
+h2 {
+  color: #e8491d;
+  font-size: 1.8em;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Instructions */
+h3 {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+/* Image Styling */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+}

@@ -1,0 +1,7 @@
+OTHERS
+https://www.themealdb.com/api.php
+
+
+RELATED TO FIELD
+https://api-docs.luchtmeetnet.nl/
+https://waterservices.usgs.gov/
